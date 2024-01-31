@@ -22,6 +22,8 @@ body {
     width: 100%;
     padding: 0 3.125rem;
     box-sizing: border-box;
+    max-width: 1440px;
+    min-width: 1024px;
 }
 
 .section-title {
@@ -106,8 +108,6 @@ header img {
     color: #000;
 }
 
-
-
 .search-input {
     border: none;
     outline: none;
@@ -117,6 +117,7 @@ header img {
     font-size: 1.125rem;
     font-weight: 700;
 }
+
 .search-input:focus::placeholder {
     color: transparent;
 }
@@ -134,6 +135,12 @@ header img {
     align-items: center;
     gap: 0.625rem;
     cursor: pointer;
+}
+
+.search-button:hover {
+    border: 0.0625rem solid var(--filter-bg-color);
+    background-color: var(--filter-bg-color);
+    color: var(--main-color);
 }
 
 .search-bar {
