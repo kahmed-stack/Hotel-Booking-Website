@@ -262,10 +262,11 @@ header img {
     height: 7.75rem;
     width: 100%;
     border-radius: 1.25rem 1.25rem 0 0;
+    padding-top: 0.25rem;
     border: 0.3125rem solid #FFF;
     box-sizing: border-box;
     margin: -0.3125rem;
-    background: lightgray 50% / cover no-repeat;
+    background: #fff;
 }
 
 .card-title,
@@ -278,20 +279,22 @@ header img {
 }
 
 .accommodation-card h3.card-title {
-    padding-left: 0.75rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     padding-top: 0.2rem;
     padding-bottom: 0.2rem;
 }
 
 .accommodation-card p.card-subtitle {
-    padding-left: 0.75rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     padding-top: 0.2rem;
     padding-bottom: 0.2rem;
 }
 
 .accommodation-card div.card-rating {
     padding-bottom: 0.75rem;
-    padding-left: 0.75rem;
+    padding-left: 0.5rem;
 }
 
 .accommodation-card .white-border {
@@ -426,86 +429,4 @@ header img {
     text-decoration: none;
     display: block;
     margin-bottom: 0.94rem;
-}
-
-/* Media Queries for Responsive Design */
-
-/* Small screens */
-@media (max-width: 768px) {
-    .main-container {
-        padding: 0 1rem;
-    }
-
-    .header-section {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    header img {
-        width: 80%;
-        margin-bottom: 1rem;
-    }
-
-    .nav-links {
-        justify-content: center;
-    }
-
-    .nav-links a {
-        margin: 0.5rem;
-    }
-
-    .search-bar {
-        width: 100%;
-        margin-bottom: 1rem;
-    }
-
-    .filter-bar {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .filter-button {
-        max-width: 100%;
-    }
-
-    .accommodation-and-popular section {
-        padding: 1rem;
-    }
-
-    .accommodation,
-    .popular {
-        width: 100%;
-    }
-
-    .accommodation-card,
-    .popular-cards {
-        flex: 0 0 100%;
-    }
-
-    .things-todo-card {
-        width: 100%;
-    }
-
-    .footer-links {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .column {
-        flex: 0 0 100%;
-    }
-}
-
-/* Medium screens (768px - 1200px) */
-@media (min-width: 769px) and (max-width: 1200px) {
-    .main-container {
-        padding: 0 2rem;
-    }
-}
-
-/* Large screens (1201px and above) */
-@media (min-width: 1201px) {
-    .main-container {
-        padding: 0 3.125rem;
-    }
 }
